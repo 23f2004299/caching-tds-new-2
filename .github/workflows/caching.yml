@@ -9,6 +9,7 @@ jobs:
   build-with-cache:
     runs-on: ubuntu-latest
     permissions:
+      actions: write
       contents: write
 
     steps:
